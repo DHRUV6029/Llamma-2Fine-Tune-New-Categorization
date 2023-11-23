@@ -1,6 +1,6 @@
 # Llamma-2Fine-Tune-New-Categorization
  
-## Generating Instruction Dataset using GPT-3.5
+1. ## Generating Instruction Dataset using GPT-3.5
 
 # Overview
 News articles play a crucial role in advancing machine learning research, offering a vast and diverse dataset for training and evaluating models in natural language understanding. This blog explores an innovative solution for efficiently creating a labeled dataset for news classification. The goal is to organize this wealth of information into distinct categories, facilitating research and industry applications such as sentiment analysis and text summarization.
@@ -18,7 +18,7 @@ Creating a well-categorized dataset manually or through keyword searches can be 
 
 Given the need for a high-quality dataset within a limited timeframe and budget, we opt to use GPT 3.5 for dataset creation.
 
-## Fine-Tuning Meta’s Llama 2 7B Model for News Article Categorization
+2. ## Fine-Tuning Meta’s Llama 2 7B Model for News Article Categorization
 Part 1: Setting up and Preparing for Fine-Tuning
 1. Installing and Loading Required Modules
 Ensure you have the necessary Python modules installed. You can use the requirements.txt file or install them manually.
@@ -36,6 +36,19 @@ Execute !huggingface-cli login in Google Colab Notebook, enter the token, and en
 # Setting up Hugging Face CLI and User Authentication
 Create a WRITE access token on Hugging Face (https://huggingface.co/settings/tokens).
 Execute !huggingface-cli login in Google Colab Notebook, enter the token, and enter "Y."
+
+
+## 3. Deployment to AWS Sagemaker
+
+Aws_SageMaker_Deploy.ipynb is the script to run for sagemaker deployment
+
+**Prequsites**
+1. Need an AWS account with AWSSageMakerFullAccess Role configured
+2. Derive AWS Credentials 
+3. install boto3 and sagemaker
+
+
+
 
 
 
