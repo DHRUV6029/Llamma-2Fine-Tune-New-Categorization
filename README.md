@@ -28,10 +28,10 @@ Ensure you have the necessary Python modules installed. You can use the requirem
 # Approval for Meta’s Llama 2 Models
 Below are the steps to request permission for the Llama-2–7B model:
 
-Get approval from Hugging Face (https://huggingface.co/meta-llama/Llama-2-7b-hf).
-Get approval from Meta (https://ai.meta.com/resources/models-and-libraries/llama-downloads/).
-Create a WRITE access token on Hugging Face (https://huggingface.co/settings/tokens).
-Execute !huggingface-cli login in Google Colab Notebook, enter the token, and enter "Y."
+1. Get approval from Hugging Face (https://huggingface.co/meta-llama/Llama-2-7b-hf).
+2. Get approval from Meta (https://ai.meta.com/resources/models-and-libraries/llama-downloads/).
+3. Create a WRITE access token on Hugging Face (https://huggingface.co/settings/tokens).
+4. Execute !huggingface-cli login in Google Colab Notebook, enter the token, and enter "Y."
 
 # Setting up Hugging Face CLI and User Authentication
 Create a WRITE access token on Hugging Face (https://huggingface.co/settings/tokens).
