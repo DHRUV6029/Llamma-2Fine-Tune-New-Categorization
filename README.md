@@ -34,8 +34,8 @@ Below are the steps to request permission for the Llama-2–7B model:
 4. Execute !huggingface-cli login in Google Colab Notebook, enter the token, and enter "Y."
 
 # Setting up Hugging Face CLI and User Authentication
-Create a WRITE access token on Hugging Face (https://huggingface.co/settings/tokens).
-Execute !huggingface-cli login in Google Colab Notebook, enter the token, and enter "Y."
+1. Create a WRITE access token on Hugging Face (https://huggingface.co/settings/tokens).
+2. Execute !huggingface-cli login in Google Colab Notebook, enter the token, and enter "Y."
 
 
 # 3. Deployment to AWS Sagemaker
