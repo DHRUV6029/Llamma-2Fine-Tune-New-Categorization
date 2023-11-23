@@ -18,7 +18,7 @@ Creating a well-categorized dataset manually or through keyword searches can be 
 
 Given the need for a high-quality dataset within a limited timeframe and budget, we opt to use GPT 3.5 for dataset creation.
 
-2. # Fine-Tuning Meta’s Llama 2 7B Model for News Article Categorization
+# 2. Fine-Tuning Meta’s Llama 2 7B Model for News Article Categorization
 Part 1: Setting up and Preparing for Fine-Tuning
 1. Installing and Loading Required Modules
 Ensure you have the necessary Python modules installed. You can use the requirements.txt file or install them manually.
